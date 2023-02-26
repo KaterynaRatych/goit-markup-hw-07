@@ -1,0 +1,107 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+  .main-nav .logo {
+    margin-right: 76px;
+  }
+  .slogan {
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-desktop.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .slogan {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-desktop-2x.jpg);
+    }
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .no-padding {
+    display: flex;
+  }
+
+  .advantages-item,
+  .projects-item,
+  .team-item {
+    margin-right: 24px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 24px * 3) / 4);
+    margin-bottom: 0;
+  }
+
+  .advantages-pic {
+    display: flex;
+  }
+  .advantages-item .subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .advantages-item p {
+    font-weight: 400;
+  }
+  .projects-item {
+    width: calc((100% - 48px) / 3);
+  }
+
+  .team-items {
+    flex-wrap: nowrap;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 0;
+  }
+  .team-item:nth-child(2n),
+  .advantages-item:nth-child(2n) {
+    margin-right: 24px;
+  }
+  .advantages-item:last-child,
+  .projects-item:last-child,
+  .team-item:last-child,
+  .filter:last-child,
+  .advantages-pic:last-child {
+    margin-right: 0;
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customer-item {
+    width: calc((100% - 24px * 5) / 6);
+  }
+  .customer-item:nth-child(n + 1) {
+    margin-bottom: 0;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer .container {
+    display: flex;
+  }
+  .footer-block {
+    margin-right: 120px;
+  }
+  .tablet-container {
+    margin-bottom: 0;
+  }
+}
